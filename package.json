@@ -1,5 +1,4 @@
 {
-  "homepage": "https://newmie10.github.io/newmie10.github.io",
   "name": "newmie10.github.io",
   "version": "0.1.0",
   "private": true,
@@ -40,7 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.1.1"
   },
   "homepage": "https://newmie10.github.io/"
 }
