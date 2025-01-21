@@ -1,10 +1,8 @@
 import React from "react";
 import './App.css';
-import Header from './components/Header';
-import Projects from './components/Projects';
-import Courses from './components/Courses';
-import About from './components/About';
-import Footer from './components/Footer';
+import Projects from './pages/Projects';
+import Courses from './pages/Courses';
+import About from './pages/About';
 import Home from './components/Home';
 import AnimatedButton from "./components/AnimatedButton";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
