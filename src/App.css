@@ -1,9 +1,9 @@
 body {
   font-family: 'Inter';
   background-color: #04526c;
-  margin: 0;
-  padding: 0;
   flex:auto;
+  margin: 0;
+  padding-bottom: 0;
 }
 
 .App-header {
@@ -12,6 +12,8 @@ body {
   color: white;
   text-align: center;
   flex: auto;
+  margin: 0;
+  padding-bottom: 0;
 }
 
 main {
@@ -19,10 +21,69 @@ main {
   flex:auto;
 }
 
-.projects, .courses, .about, .home {
+.projects, .courses, .home {
   margin-bottom: 40px;
   flex:auto;
 }
+
+.about {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #04526c;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f4f4f4;
+  margin-bottom: 40px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-box:hover {
+  transform: scale(1.03);
+}
+
+.about-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-text h3 {
+  margin: 0;
+  color: #04526c;
+}
+
+.about-text p {
+  margin: 5px 0;
+  color: #333;
+  line-height: 1.6;
+}
+
 
 .card-container {
   display: flex;
@@ -97,12 +158,14 @@ a:hover {
   flex-direction: row;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: bottom;
   text-align: center;
-  padding: 20px;
-  background-color: #282c34;
+  padding: 15px 0 5px 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #04526c;
   color: white;
   flex-direction: column;
 }
@@ -115,4 +178,22 @@ p {
   text-align: center;
 }
 
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  background-color: #04526c;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #033f58;
+  transform: scale(1.05);
+}
 

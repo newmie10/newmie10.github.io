@@ -4,7 +4,7 @@ import Projects from './pages/Projects';
 import Courses from './pages/Courses';
 import About from './pages/About';
 import Home from './components/Home';
-import AnimatedButton from "./components/AnimatedButton";
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 /*sam burger boy ;)*/
 function App() {
@@ -21,7 +21,7 @@ function App() {
             />
           </Routes>
         </main>
-        {/* <Footer /> */}
+        <Footer/>
       </div>
     </Router>
   );
