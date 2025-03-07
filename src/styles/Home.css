@@ -1,0 +1,64 @@
+body {
+  font-family: 'Inter';
+  background-color: #04526c;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  text-align: center;
+  margin-bottom: 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #04526c;
+  color: white;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #f4f4f4;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nav-link {
+  background: #fff;
+  color: #000;
+  padding: 20px 40px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  width: fit-content;
+  transition: background 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+  background: #e0e0e0;
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .nav-options {
+    flex-direction: column;
+  }
+  
+  .nav-link {
+    width: 80%;
+    max-width: 300px;
+  }
+} 

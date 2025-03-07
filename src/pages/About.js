@@ -2,8 +2,8 @@ import React from 'react';
 import hiking from "../images/hiking.jpg"
 import code from "../images/code.jpg"
 import music from "../images/music.jpg"
-import BackButton from "../components/BackButton"
 import { useNavigate } from "react-router-dom"
+import '../styles/About.css';
 
 
 
