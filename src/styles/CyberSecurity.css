@@ -2,6 +2,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  background-image: linear-gradient(135deg, #396f81 0%, #033e53 100%);
   position: relative;
   min-height: 80vh;
 }

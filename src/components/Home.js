@@ -10,6 +10,7 @@ function Home() {
         <Link to="/projects" className="nav-link">Projects</Link>
         <Link to="/courses" className="nav-link">Classes</Link>
         <Link to="/about" className="nav-link">About Me</Link>
+        <Link to="/resume" className="nav-link">Resume</Link>
         <Link to="/cybersecurity" className="nav-link">CTF Challenges</Link>
       </div>
     </section>

@@ -7,6 +7,7 @@ import '../styles/Projects.css';
 // Import project images
 import minuteMunchImage from '../images/minutemunch.png';
 import portfolioImage from '../images/code.jpg';
+import neuralImage from '../images/neural.png'
 // Import other project images as needed
 
 // Project data structure - easy to add new projects
@@ -30,6 +31,17 @@ const projects = [
     tags: ["React", "JavaScript", "CSS"],
     github: "https://github.com/newmie10/newmie10.github.io",
     liveDemo: "https://newmie10.github.io",
+    status: "In Progress",
+    featured: true
+  },
+  {
+    title: "SimpleCNN",
+    description: "Simple Convolutional Neural Network in C++.",
+    longDescription: "A work in progress with my friend Jack, this network uses a convolutional neural network to recognize hand-drawn digits from the MSINT database.",
+    image: neuralImage,
+    tags: ["C++", "HTML", "CSS", "Machine Learning"],
+    github: "https://github.com/jackdzi/SimpleCNN",
+    liveDemo: "https://github.com/jackdzi/SimpleCNN",
     status: "In Progress",
     featured: true
   }
@@ -83,11 +95,11 @@ function Projects() {
               {hoveredProject === project.title && (
                 <div className="project-overlay">
                   <p className="overlay-description">{project.longDescription}</p>
-                  <div className="project-links">
+                  {/* <div className="project-links">
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <FaGithub /> GitHub
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               )}
             </div>
