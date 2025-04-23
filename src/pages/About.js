@@ -2,6 +2,7 @@ import React from 'react';
 import hiking from "../images/hiking.jpg"
 import code from "../images/code.jpg"
 import music from "../images/music.jpg"
+import library from "../images/library.jpg"
 import { useNavigate } from "react-router-dom"
 import '../styles/About.css';
 
@@ -41,6 +42,14 @@ function About() {
           <div className="about-text">
             <h3>Music</h3>
             <p>I've always been one to explore new music. Whether I'm on a Billy Strings tear or going back to the basics with The Band, you can always find me trying to find new songs!</p>
+          </div>
+        </div>
+
+        <div className="about-box">
+          <img src={library} alt="Library" className="about-img" />
+          <div className="about-text">
+            <h3>Reading</h3>
+            <p>I've recently rediscovered my passion for reading. I mostly explore historical nonfiction, and recently finished the mammoth "Rise and Fall of the Third Reich" by William Stricker. Jon Krakauer is another favorite, and I think I've finished most if not all of his books. I'm diving into some less heavy stuff now with the Jack Ryan series by Tom Clancy, and so far it's been a great de-stressing habit. I've linked my GoodReads profile at the bottom, if you want to read some of my poorly written reviews.</p>
           </div>
         </div>
       </div>

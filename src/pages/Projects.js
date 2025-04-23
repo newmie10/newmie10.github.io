@@ -8,6 +8,7 @@ import '../styles/Projects.css';
 import minuteMunchImage from '../images/minutemunch.png';
 import portfolioImage from '../images/code.jpg';
 import neuralImage from '../images/neural.png'
+import tradeImage from '../images/trade.jpg'
 // Import other project images as needed
 
 // Project data structure - easy to add new projects
@@ -42,6 +43,17 @@ const projects = [
     tags: ["C++", "HTML", "CSS", "Machine Learning"],
     github: "https://github.com/jackdzi/SimpleCNN",
     liveDemo: "https://github.com/jackdzi/SimpleCNN",
+    status: "In Progress",
+    featured: true
+  },
+  {
+    title: "Cavemanomics",
+    description: "Gamified trading system with direct messaging",
+    longDescription: "Current project for CS 320, my group and I are creating a bartering system that gamifies trades with swipe right/left behavior and connects users who like eachothers items.",
+    image: tradeImage,
+    tags: ["JavaScript, CSS, HTML, ExpressJS, NodeJS"],
+    github: "https://github.com/neha-kotturu/cavemanomics",
+    liveDemo: "https://github.com/neha-kotturu/cavemanomics",
     status: "In Progress",
     featured: true
   }

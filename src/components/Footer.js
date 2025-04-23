@@ -35,6 +35,7 @@ function Footer() {
         <a href="mailto:snewman0546@gmail.com" target="_blank" rel="noopener noreferrer">📧 snewman0546@gmail.com </a>
         <a href="https://github.com/newmie10" target="_blank" rel="noopener noreferrer">🐙 GitHub </a>
         <a href="https://linkedin.com/in/s-newman0" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
+        <a href="https://www.goodreads.com/user/show/187017480-sam-newman" target="_blank" rel="noopener noreferrer">📚 GoodReads</a>
       </div>
       <p className="dev-notice">Website still in development. Best viewed on desktop.</p>
     </footer>
